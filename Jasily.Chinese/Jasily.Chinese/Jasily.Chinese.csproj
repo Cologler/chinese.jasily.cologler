@@ -35,7 +35,7 @@
   </PropertyGroup>
   <ItemGroup>
     <!-- A reference to the entire .NET Framework is automatically included -->
-    <EmbeddedResource Include="Asserts\Uni2Pinyin" />
+    <EmbeddedResource Include="Assets\Uni2Pinyin" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ChineseDigit.cs" />

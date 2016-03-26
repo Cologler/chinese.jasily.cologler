@@ -91,7 +91,7 @@ namespace Jasily.Chinese.PinYin
 
         public static PinYinManager CreateInstance()
         {
-            const string name = "Jasily.Chinese.Asserts.Uni2Pinyin";
+            const string name = "Jasily.Chinese.Assets.Uni2Pinyin";
             using (var stream = typeof(PinYinManager).GetTypeInfo().Assembly.GetManifestResourceStream(name))
             using (var reader = new StreamReader(stream))
             {
